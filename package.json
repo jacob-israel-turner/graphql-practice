@@ -8,11 +8,19 @@
     "react-scripts": "0.7.0"
   },
   "dependencies": {
+    "babel-plugin-transform-export-extensions": "^6.8.0",
+    "cors": "^2.8.1",
+    "express-graphql": "^0.6.1",
+    "graphiql": "^0.8.0",
+    "graphql": "^0.8.1",
     "react": "^15.3.2",
     "react-dom": "^15.3.2"
   },
   "babel": {
-    "presets": ["latest"]
+    "presets": [
+      "latest"
+    ],
+		"plugins": ["transform-export-extensions"]
   },
   "scripts": {
     "start": "react-scripts start",
